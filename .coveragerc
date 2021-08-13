@@ -1,0 +1,6 @@
+[run]
+omit =
+    # Not covered because it's copied from an outside source.
+    slack_bot/monkeypatch.py
+    # Driver script.
+    slack_bot/data/main.py
