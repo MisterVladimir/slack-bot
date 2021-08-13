@@ -1,9 +1,8 @@
 from setuptools import find_packages, setup
 
 requirements = [
-    "invoke",
-    "loguru",
-    "awscli",
+    "slackclient",
+    "requests",
 ]
 requirments_dev = [
     "Sphinx",
